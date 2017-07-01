@@ -141,7 +141,6 @@ public class LoginFragment extends Fragment {
 
         mEtEmail.setText(null);
         mEtPassword.setText(null);
-
         Intent intent = new Intent(getActivity(), ThreeTabsActivity.class);
         startActivity(intent);
 
